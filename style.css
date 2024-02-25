@@ -1,5 +1,22 @@
 html {
   font-family: sans-serif;
 }
-
-/* Your CSS below here */
+.box{
+  width: 200px;/* Set the widith to 200px */
+  height: 200px;/* Set the height to the same as the width */
+  display: flex;/*  Center the content */
+  align-items: center;/* Center vertically */
+  justify-content: center;/* Center Horizontally */
+  font-size: 1.125rem; /* Personally I think this size looks the best  */
+  background-color: red; /* Set base color */
+  color: white; /* Set text color */
+  text-shadow: 1px 1px 2px black;/* Give the text a black shadow */
+  border-radius: 10px; /* Give it a border radius */
+  border: 1px solid black; /* Give it a black border */
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 100%); /* Give it a black gradiant. 
+  I Dont really understand what I did here but i think it worked */
+  box-shadow: 0 2px 5px rba(0, 0, 0, 0.2), inset 0 2px 5px rgba(255, 255, 255, 0.2), inset 0 -2px 5px rgba(0, 0, 0, 0.2); /* Make it 3D.
+  I dont think this is working */
+  
+  
+}
